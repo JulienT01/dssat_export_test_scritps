@@ -1,0 +1,12 @@
+
+echo "deb [ arch=amd64 ] https://raw.githubusercontent.com/pdidev/repo/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/pdi.list > /dev/null
+sudo wget -O /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg https://raw.githubusercontent.com/pdidev/repo/ubuntu/pdidev-archive-keyring.gpg
+sudo chmod a+r /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg /etc/apt/sources.list.d/pdi.list
+sudo apt update
+sudo apt install pdidev-archive-keyring
+
+
+wget https://gac.udc.es/~emilioj/focal.tgz
+tar -xf focal.tgz
+cd focal
+sudo apt install `find . -name "*.deb"`
