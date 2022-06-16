@@ -1,0 +1,4 @@
+[[source]]
+name = "debian bullseye main"
+url = "https://raw.githubusercontent.com/pdidev/repo/debian"
+verify_ssl = true
