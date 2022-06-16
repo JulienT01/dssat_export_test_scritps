@@ -2,8 +2,12 @@ channels:
     - conda-forge
 dependencies:
     - python3-pip
-    - notebook
-    - jupyterhub
-    - jupyterlab
-      
+    - cmake
+    - gfortran
+    - matplotlib 
+    - numpy=1.19.5
+    - jinja2 
+    - pyzmq
+    - gym=0.18.3
+    - stable-baselines3=1.4.0
       
