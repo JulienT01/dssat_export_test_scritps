@@ -15,4 +15,4 @@ apt install python3-pip -y
 python3 -m pip install --no-cache-dir notebook jupyterlab jupyterhub
 
 
-python3 -m pip install --no-cache-dir gym==0.18.3
+#python3 -m pip install --no-cache-dir gym==0.18.3
