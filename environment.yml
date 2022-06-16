@@ -1,0 +1,9 @@
+channels:
+    - conda-forge
+dependencies:
+    - python3-pip
+    - notebook
+    - jupyterhub
+    - jupyterlab
+      
+      
