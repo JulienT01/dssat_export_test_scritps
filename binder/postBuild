@@ -36,7 +36,7 @@ make
 make install
 
 #TODO:
-#cd ~/gym_dssat_pdi/dssat-csm-data
-#sudo cp -r ./* ~/dssat_pdi
-#cd ~/gym_dssat_pdi/gym-dssat-pdi
-#pip install -e .
+cd ~/gym_dssat_pdi/dssat-csm-data
+sudo cp -r ./* ~/dssat_pdi
+cd ~/gym_dssat_pdi/gym-dssat-pdi
+pip install -e .
