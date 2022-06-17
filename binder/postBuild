@@ -31,7 +31,7 @@ cd gym_dssat_pdi
 cd dssat-csm-os
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX='.' -DCMAKE_PREFIX_PATH='~/pdi/share/paraconf/cmake;/opt/pdi/share/pdi/cmake' ..
+cmake -DCMAKE_INSTALL_PREFIX='.' -DCMAKE_PREFIX_PATH='~/pdi/share/paraconf/cmake;~/pdi/share/pdi/cmake;~/pdi/share/yaml/cmake/' ..
 make
 make install
 
