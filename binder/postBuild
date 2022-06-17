@@ -35,5 +35,8 @@ cmake -DCMAKE_INSTALL_PREFIX='.' -DCMAKE_PREFIX_PATH='~/pdi/share/paraconf/cmake
 make
 make install
 
-
-cd ~/gym_dssat_pdi
+#TODO:
+#cd ~/gym_dssat_pdi/dssat-csm-data
+#sudo cp -r ./* ~/dssat_pdi
+#cd ~/gym_dssat_pdi/gym-dssat-pdi
+#pip install -e .
