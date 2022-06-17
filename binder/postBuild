@@ -1,0 +1,39 @@
+git clone https://gitlab.maisondelasimulation.fr/pdidev/pdi.git
+mkdir ./pdi/build && cd pdi/build
+cmake -DCMAKE_INSTALL_PREFIX='./pdi' \
+    -DDIST_PROFILE=User \
+    -DCMAKE_VERBOSE_MAKEFILE=ON \
+    -DBUILD_CFG_VALIDATOR=OFF \
+    -DBUILD_DECL_HDF5_PLUGIN=OFF \
+    -DBUILD_DECL_NETCDF_PLUGIN=OFF \
+    -DBUILD_DECL_SION_PLUGIN=OFF \
+    -DBUILD_FLOWVR_PLUGIN=OFF \
+    -DBUILD_FORTRAN=ON \
+    -DBUILD_FTI_PLUGIN=OFF \
+    -DBUILD_HDF5_PARALLEL=OFF \
+    -DBUILD_MPI_PLUGIN=OFF \
+    -DBUILD_PYCALL_PLUGIN=ON \
+    -DBUILD_PYTHON=ON \
+    -DBUILD_SET_VALUE_PLUGIN=ON \
+    -DBUILD_SERIALIZE_PLUGIN=ON \
+    -DBUILD_SHARED_LIBS=ON \
+    -DBUILD_TEST_PLUGIN=OFF \
+    -DBUILD_TRACE_PLUGIN=ON \
+    -DBUILD_USER_CODE_PLUGIN=ON \
+    -DUSE_DEFAULT=EMBEDDED .. # configuration
+make install   # compilation and installation
+
+cd ~
+git clone --recurse-submodules https://gitlab.inria.fr/rgautron/gym_dssat_pdi.git
+cd gym_dssat_pdi
+
+
+cd dssat-csm-os
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX='./dssat_pdi' -DCMAKE_PREFIX_PATH='~/pdi/share/paraconf/cmake;/opt/pdi/share/pdi/cmake' ..
+make
+make install
+
+
+cd ~/gym_dssat_pdi
