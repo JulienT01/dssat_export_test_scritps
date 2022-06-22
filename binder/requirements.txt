@@ -1,6 +1,5 @@
 cmake
 entrypoints
-lfortran
 gym==0.18.3
 Jinja2
 matplotlib==3.3.4
