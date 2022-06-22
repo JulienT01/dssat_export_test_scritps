@@ -1,0 +1,178 @@
+*** *  DSSAT PROFILE LINUX* ***
+DDB // /opt/dssat_pdi
+DTB // /opt/dssat_pdi
+DTE // /opt/dssat_pdi
+DTO // /opt/dssat_pdi
+DAT // /opt/dssat_pdi
+DPT // /opt/dssat_pdi
+DIM // /opt/dssat_pdi
+DTP // /opt/dssat_pdi
+DPF // /opt/dssat_pdi
+DFO // /opt/dssat_pdi
+DIS // /opt/dssat_pdi
+DDW // /opt/dssat_pdi
+DWG // /opt/dssat_pdi
+DWC // /opt/dssat_pdi
+DDS // /opt/dssat_pdi
+DTS // /opt/dssat_pdi
+DDG // /opt/dssat_pdi
+DCG // /opt/dssat_pdi/TOOLS/GENCALC GENCALC2.EXE
+DGL // /opt/dssat_pdi/TOOLS/GLUE GLUE.BAT
+DPM // /opt/dssat_pdi
+DDE // /opt/dssat_pdi
+TOG // /opt/dssat_pdi/TOOLS/GBUILD GBUILD.EXE
+
+MAL // /opt/dssat_pdi dscsm048 PRFRM048
+MAR // /opt/dssat_pdi
+MBA // /opt/dssat_pdi dscsm048 CSCER048
+MBH // /opt/dssat_pdi dscsm048 CRGRO048
+MBM // /opt/dssat_pdi dscsm048 PRFRM048
+MBN // /opt/dssat_pdi dscsm048 CRGRO048
+MBR // /opt/dssat_pdi dscsm048 PRFRM048
+MBS // /opt/dssat_pdi dscsm048 BSCER048
+MBW // /opt/dssat_pdi
+MCB // /opt/dssat_pdi dscsm048 CRGRO048
+MCH // /opt/dssat_pdi dscsm048 CRGRO048
+MCT // /opt/dssat_pdi
+MCN // /opt/dssat_pdi dscsm048 CRGRO048
+MCI // /opt/dssat_pdi dscsm048 CRGRO048
+MCO // /opt/dssat_pdi dscsm048 CRGRO048
+MCP // /opt/dssat_pdi dscsm048 CRGRO048
+MCS // /opt/dssat_pdi dscsm048 CSYCA048
+MCV // /opt/dssat_pdi
+MFA // /opt/dssat_pdi dscsm048 CRGRO048
+MFB // /opt/dssat_pdi dscsm048 CRGRO048
+MGB // /opt/dssat_pdi dscsm048 CRGRO048
+MGW // /opt/dssat_pdi
+MLT // /opt/dssat_pdi dscsm048 CRGRO048
+MML // /opt/dssat_pdi dscsm048 MLCER048
+MMZ // /opt/dssat_pdi dscsm048 MZCER048
+MNN // /opt/dssat_pdi
+MNP // /opt/dssat_pdi dscsm048 CRGRO048
+MOA // /opt/dssat_pdi
+MPE // /opt/dssat_pdi
+MPI // /opt/dssat_pdi dscsm048 PIALO048
+MPN // /opt/dssat_pdi dscsm048 CRGRO048
+MPO // /opt/dssat_pdi
+MPP // /opt/dssat_pdi dscsm048 CRGRO048
+MPR // /opt/dssat_pdi dscsm048 CRGRO048
+MPT // /opt/dssat_pdi dscsm048 PTSUB048
+MQU // /opt/dssat_pdi dscsm048 CRGRO048
+MRI // /opt/dssat_pdi dscsm048 RICER048
+MRP // /opt/dssat_pdi
+MSB // /opt/dssat_pdi dscsm048 CRGRO048
+MSC // /opt/dssat_pdi dscsm048 SCCAN048
+MSF // /opt/dssat_pdi dscsm048 CRGRO048
+MSG // /opt/dssat_pdi dscsm048 SGCER048
+MSI // /opt/dssat_pdi
+MSS // /opt/dssat_pdi
+MSU // /opt/dssat_pdi dscsm048 CRGRO048
+MSW // /opt/dssat_pdi dscsm048 SWCER048
+MTF // /opt/dssat_pdi dscsm048 TFAPS048
+MTM // /opt/dssat_pdi dscsm048 CRGRO048
+MTN // /opt/dssat_pdi dscsm048 TNARO048
+MTR // /opt/dssat_pdi dscsm048 TRARO048
+MVB // /opt/dssat_pdi dscsm048 CRGRO048
+MVI // /opt/dssat_pdi
+MWH // /opt/dssat_pdi dscsm048 CSCER048
+MOT // /opt/dssat_pdi
+MU1 // /opt/dssat_pdi
+MU2 // /opt/dssat_pdi
+MIO // /opt/dssat_pdi
+MLO // /opt/dssat_pdi
+MG0 // /opt/dssat_pdi dscsm048 PRFRM048
+
+MGR // /opt/dssat_pdi
+NSH // /opt/dssat_pdi
+ASP // /opt/dssat_pdi
+ASS // /opt/dssat_pdi dscsm048
+ASA // /opt/dssat_pdi VARAN2.EXE
+AGR // /opt/dssat_pdi
+AQS // /opt/dssat_pdi dscsm048
+AQA // /opt/dssat_pdi SUSTAIN2.EXE
+ASX // /opt/dssat_pdi
+APS // /opt/dssat_pdi dscsm048
+APV // /opt/dssat_pdi
+APM // /opt/dssat_pdi
+APA // /opt/dssat_pdi VARAN2.EXE
+APJ // /opt/dssat_pdi
+APF // /opt/dssat_pdi
+APP // /opt/dssat_pdi
+APK // /opt/dssat_pdi DISC9801.EXE
+TOE // /WINDOWS NOTEPAD.EXE
+TOS // /
+TOM // /
+BGD // /opt/dssat_pdi/BACKGROUND
+STD // /opt/dssat_pdi/StandardData
+CDD // /opt/dssat_pdi
+WED // /opt/dssat_pdi/Weather
+WGD // /opt/dssat_pdi/Weather/Gen
+CLD // /opt/dssat_pdi/Weather/Climate
+WMD // /opt/dssat_pdi/Weather/Month
+SLD // /opt/dssat_pdi/Soil
+CRD // /opt/dssat_pdi/Genotype
+FID // /opt/dssat_pdi/Background
+ALD // /opt/dssat_pdi/Alfalfa
+GCD // /opt/dssat_pdi/GCWork
+GUD // /opt/dssat_pdi/GLWork
+ARD // /opt/dssat_pdi/
+BAD // /opt/dssat_pdi/Barley
+BHD // /opt/dssat_pdi/Bahia
+BMD // /opt/dssat_pdi/Bermudagrass
+BND // /opt/dssat_pdi/Drybean
+BRD // /opt/dssat_pdi/Brachiaria
+BSD // /opt/dssat_pdi/Sugarbeet
+BWD // /opt/dssat_pdi/
+CBD // /opt/dssat_pdi/Cabbage
+CHD // /opt/dssat_pdi/Chickpea
+CID // /opt/dssat_pdi/Chia
+CTD // /opt/dssat_pdi/Citrus
+CND // /opt/dssat_pdi/Canola
+COD // /opt/dssat_pdi/Cotton
+CPD // /opt/dssat_pdi/Cowpea
+CSD // /opt/dssat_pdi/Cassava
+CVD // /opt/dssat_pdi/Clover
+FAD // /opt/dssat_pdi/Fallow
+FBD // /opt/dssat_pdi/Fababean
+GBD // /opt/dssat_pdi/GreenBean
+GWD // /opt/dssat_pdi/Weeds
+LTD // /opt/dssat_pdi/Lentil
+MLD // /opt/dssat_pdi/Millet
+MZD // /opt/dssat_pdi/Maize
+NND // /opt/dssat_pdi/Banana
+NPD // /opt/dssat_pdi/Napier
+OAD // /opt/dssat_pdi/Oats
+PED // /opt/dssat_pdi/Pea
+PID // /opt/dssat_pdi/Pineapple
+PND // /opt/dssat_pdi/Peanut
+POD // /opt/dssat_pdi/PerennialPeanut
+PPD // /opt/dssat_pdi/Pigeonpea
+PRD // /opt/dssat_pdi/Pepper
+PTD // /opt/dssat_pdi/Potato
+QUD // /opt/dssat_pdi/Quinoa
+RID // /opt/dssat_pdi/Rice
+RPD // /opt/dssat_pdi/Rhizomapeanut
+SBD // /opt/dssat_pdi/Soybean
+SCD // /opt/dssat_pdi/Sugarcane
+SFD // /opt/dssat_pdi/Safflower
+SGD // /opt/dssat_pdi/Sorghum
+SSD // /opt/dssat_pdi/
+SID // /opt/dssat_pdi
+SUD // /opt/dssat_pdi/Sunflower
+SWD // /opt/dssat_pdi/SweetCorn
+TFD // /opt/dssat_pdi/Teff
+TMD // /opt/dssat_pdi/Tomato
+TND // /opt/dssat_pdi/Tanier
+TRD // /opt/dssat_pdi/Taro
+VBD // /opt/dssat_pdi/Velvetbean
+VID // /opt/dssat_pdi/
+WHD // /opt/dssat_pdi/Wheat
+U1D // /opt/dssat_pdi/CROP1
+U2D // /opt/dssat_pdi/CROP2
+OTD // /
+ASD // /opt/dssat_pdi/Seasonal
+AQD // /opt/dssat_pdi/Sequence
+APD // /opt/dssat_pdi/Spatial
+PSD // /opt/dssat_pdi/Pest
+ECD // /opt/dssat_pdi/Economic
+TOD // /
