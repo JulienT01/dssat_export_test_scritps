@@ -37,7 +37,7 @@ mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX='~/gym_dssat_pdi/' -DCMAKE_PREFIX_PATH='~/.pdi/pdi/share/paraconf/cmake;~/.pdi/pdi/share/pdi/cmake;~/.pdi/pdi/share/yaml/cmake' ..
 make
-sudo make install
+make install
 
 
 
