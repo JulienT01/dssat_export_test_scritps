@@ -1,6 +1,11 @@
+
+
+mkdir ~/.pdi
+cd ~/.pdi
+
 git clone https://gitlab.maisondelasimulation.fr/pdidev/pdi.git
-mkdir ./pdi/build && cd pdi/build
-cmake -DCMAKE_INSTALL_PREFIX='./pdi' \
+mkdir pdi/build && cd pdi/build
+cmake -DCMAKE_INSTALL_PREFIX='~/.pdi/pdi' \
     -DDIST_PROFILE=User \
     -DCMAKE_VERBOSE_MAKEFILE=ON \
     -DBUILD_CFG_VALIDATOR=OFF \
@@ -21,23 +26,27 @@ cmake -DCMAKE_INSTALL_PREFIX='./pdi' \
     -DBUILD_TRACE_PLUGIN=ON \
     -DBUILD_USER_CODE_PLUGIN=ON \
     -DUSE_DEFAULT=EMBEDDED .. # configuration
-make install   # compilation and installation
+sudo make install   # compilation and installation
 
 
 cd ~
 git clone --recurse-submodules https://gitlab.inria.fr/rgautron/gym_dssat_pdi.git
-cd gym_dssat_pdi
 
-
-cd dssat-csm-os
+cd ~/gym_dssat_pdi/dssat-csm-os
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX='.' -DCMAKE_PREFIX_PATH='~/pdi/share/paraconf/cmake;~/pdi/share/pdi/cmake;~/pdi/share/yaml/cmake/' ..
+cmake -DCMAKE_INSTALL_PREFIX='~/gym_dssat_pdi/' -DCMAKE_PREFIX_PATH='~/.pdi/pdi/share/paraconf/cmake;~/.pdi/pdi/share/pdi/cmake;~/.pdi/pdi/share/yaml/cmake' ..
 make
-make install
+sudo make install
 
-#TODO:
+
+
 cd ~/gym_dssat_pdi/dssat-csm-data
-sudo cp -r ./* ~/dssat_pdi
-cd ~/gym_dssat_pdi/gym-dssat-pdi
+sudo cp -r ./* ~/gym_dssat_pdi
+
+
+cd ~/gym_dssat_pdi/gym-dssat-pdi/
 pip install -e .
+
+
+source ~/.pdi/pdi/share/pdi/env.bash 

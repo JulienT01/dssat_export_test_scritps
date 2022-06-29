@@ -1,6 +1,6 @@
 cmake
 entrypoints
-gym==0.18.3
+gym==0.19.0
 Jinja2
 matplotlib==3.3.4
 numpy==1.19.5
