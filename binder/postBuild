@@ -26,7 +26,7 @@ cmake -DCMAKE_INSTALL_PREFIX='~/.pdi/pdi' \
     -DBUILD_TRACE_PLUGIN=ON \
     -DBUILD_USER_CODE_PLUGIN=ON \
     -DUSE_DEFAULT=EMBEDDED .. # configuration
-#make install   # compilation and installation
+make install   # compilation and installation
 
 
 cd ~
