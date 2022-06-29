@@ -26,16 +26,16 @@ cmake -DCMAKE_INSTALL_PREFIX='~/.pdi/pdi' \
     -DBUILD_TRACE_PLUGIN=ON \
     -DBUILD_USER_CODE_PLUGIN=ON \
     -DUSE_DEFAULT=EMBEDDED .. # configuration
-make install   # compilation and installation
+#make install   # compilation and installation
 
 
-#cd ~
-#git clone --recurse-submodules https://gitlab.inria.fr/rgautron/gym_dssat_pdi.git
+cd ~
+git clone --recurse-submodules https://gitlab.inria.fr/rgautron/gym_dssat_pdi.git
 
-#cd ~/gym_dssat_pdi/dssat-csm-os
-#mkdir build
-#cd build
-#cmake -DCMAKE_INSTALL_PREFIX='~/gym_dssat_pdi/' -DCMAKE_PREFIX_PATH='~/.pdi/pdi/share/paraconf/cmake;~/.pdi/pdi/share/pdi/cmake;~/.pdi/pdi/share/yaml/cmake' ..
+cd ~/gym_dssat_pdi/dssat-csm-os
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX='~/gym_dssat_pdi/' -DCMAKE_PREFIX_PATH='~/.pdi/pdi/share/paraconf/cmake;~/.pdi/pdi/share/pdi/cmake;~/.pdi/pdi/share/yaml/cmake' ..
 #make
 #sudo make install
 
