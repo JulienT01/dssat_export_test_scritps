@@ -49,4 +49,4 @@ cd ~/gym_dssat_pdi/gym-dssat-pdi/
 pip install -e .
 
 
-#source ~/.pdi/pdi/share/pdi/env.bash 
+source ~/.pdi/pdi/share/pdi/env.bash 

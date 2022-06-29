@@ -1,2 +1,2 @@
-source ~/.pdi/pdi/share/pdi/env.bash
+source /home/jovyan/.pdi/pdi/share/pdi/env.bash
 
