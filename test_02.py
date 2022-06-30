@@ -9,6 +9,8 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3.common.monitor import Monitor
 
+from gym_dssat_pdi.envs.utils import utils
+
 # helpers for action normalization
 def normalize_action(action_space_limits, action):
     """Normalize the action from [low, high] to [-1, 1]"""
@@ -157,6 +159,8 @@ class ExpertAgent:
 
 # evaluation and plotting functions
 def evaluate(agent, n_episodes=10):
+    dir = './logs_test02/'
+    utils.make_folder(dir)
     # Create eval env
     eval_args = {
         'run_dssat_location': '/home/jovyan/gym_dssat_pdi/run_dssat',
