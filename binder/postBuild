@@ -49,6 +49,7 @@ cd ~/gym_dssat_pdi/gym-dssat-pdi/
 pip install -e .
 
 
+#Hack car l'installation ne copy pas le fichier lui même sur mybinder alors qu'il le fait en local...
 cp /home/jovyan/.pdi/pdi/build/PYCALL_PLUGIN/src/PYCALL_PLUGIN_pkg-build/libpdi_pycall_plugin.so /home/jovyan/.pdi/pdi/lib/pdi/plugins_1.6.0-alpha.2022-06-11.cf15284/
 
 #source ~/.pdi/pdi/share/pdi/env.bash 
