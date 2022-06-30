@@ -10,3 +10,4 @@ pyzmq
 stable-baselines3==1.4.0
 torch
 pycall
+seaborn

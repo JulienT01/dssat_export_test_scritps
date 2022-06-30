@@ -84,7 +84,7 @@ class GymDssatWrapper(gym.Wrapper):
 
 # Create environment
 env_args = {
-    'run_dssat_location': '/opt/dssat_pdi/run_dssat',
+    'run_dssat_location': '/home/jovyan/gym_dssat_pdi/run_dssat',
     'mode': 'fertilization',
     'seed': 123,
     'random_weather': True,
@@ -113,7 +113,8 @@ ppo_agent = PPO('MlpPolicy', env, **ppo_args)
 
 # Train for 40k timesteps
 print('Training PPO agent...')
-ppo_agent.learn(total_timesteps=40_000)
+#ppo_agent.learn(total_timesteps=40_000)
+ppo_agent.learn(total_timesteps=20)
 print('Training done')
 
 # Baseline agents for comparison
@@ -159,6 +160,7 @@ def evaluate(agent, n_episodes=10):
     # Create eval env
     eval_args = {
         'run_dssat_location': '/home/jovyan/gym_dssat_pdi/run_dssat',
+        'log_saving_path': './logs_test02/dssat_pdi.log',
         'mode': 'fertilization',
         'seed': 456,
         'random_weather': True,
